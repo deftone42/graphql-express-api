@@ -1,0 +1,19 @@
+query GetArticles {
+  articles {
+    totalCount
+    edges {
+      node {
+        ...Node
+      }
+    }
+  }
+}
+
+fragment Node on Article {
+  id
+  title
+  text
+  author
+  published
+  likes
+}

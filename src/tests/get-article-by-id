@@ -1,0 +1,5 @@
+query GetArticleById($articleId: ID!) {
+  node(id: $articleId) {
+    ...Node
+  }
+}

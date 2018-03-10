@@ -1,0 +1,12 @@
+{
+  "name": "GraphQL Server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "graphql-relay": "^0.5.4"
+  }
+}

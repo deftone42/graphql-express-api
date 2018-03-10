@@ -1,0 +1,16 @@
+mutation AddArticle($article: AddArticleInput!) {
+  createArticle(input: $article) {
+    article {
+      ...Node
+    }
+  }
+}
+
+fragment Node on Article {
+  id
+  title
+  text
+  author
+  published
+  likes
+}
